@@ -1,0 +1,38 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 68px;
+    padding: 0 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav_black {
+    background-color: #111;
+}
+
+.nav_logo {
+  width: 45px;
+  object-fit: contain;
+}
+
+.nav_avatar {
+    width: 30px;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .nav_logo {
+    width: 32px;
+  }
+
+  .nav_avatar {
+    width: 24px;
+  }
+}
